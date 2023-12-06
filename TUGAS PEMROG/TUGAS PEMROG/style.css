@@ -1,0 +1,416 @@
+*, html, body {
+    margin: 0px;
+    padding: 0px;
+    font-family: roboto;
+
+}
+
+.fContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: gray;   
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px ;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+
+.brand {
+    display: flex;
+    flex-direction: row;
+}
+.first {
+    font-weight: 700;
+    color: white;
+}
+.second {
+    font-family: roboto;
+    font-weight: 400;
+    padding-left: 4px;
+    color: crimson;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation>li {
+    list-style-type: none;
+    padding: 5px
+}
+.navigation>li>a {
+    color: aliceblue;
+    font-size: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.navigation>li>a:hover {
+    color: crimson;
+    transition: all 0.4s ease-in-out;
+}
+.active {
+    background-color: crimson;
+    color:rgb(248, 247, 247);
+
+}
+
+.active:hover {
+    transform: scale(1.2);
+    border: 1px solid crimson;
+    background-color: transparent;
+}
+.img {
+    width: 18%;
+    height: 50%;
+    position: absolute;
+    bottom: 100px;
+    right: 100px;
+}
+.img img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    right: 20%;
+    transform: translate(20);
+}
+.content {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: translate;
+   
+}
+.pernyataan{
+    border: #000 solid 1px;
+    border-radius: 20px;
+    top: 60%;
+    left: 8%;
+    width: 800px;
+}
+.pernyataan p{
+    margin: 20px;
+        text-align: justify;
+}
+h4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    margin: 20px 0 20px;
+}
+.profil {
+    width: 100%;
+    padding: 100px 0;
+    background-color: gray;
+}
+.me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.text {
+    width: 550px;
+}
+.text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid crimson;
+}
+.text h5 {
+    color: black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.text p {
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.Pendidikan {
+    background-color: grey;
+    width: 100%;
+    padding: 100px 0;
+}
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 480px;
+}
+.SD {
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: black;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid white;
+}
+.SD h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.SD p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.title h2 {
+    color: white;
+    font-size: 75px;
+    width: 100%;
+    margin-bottom: 30px auto;
+    text-align: center;
+}
+.skill {
+    background-color: grey;
+    width: 100%;
+    padding: 100px 0;
+}
+.skill-bar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+.skill-bar p {
+    text-align: left;
+}
+.skill-box {
+    text-align: right;
+    width: 100%;
+    background-color: white; 
+}
+.LOGO {
+    width: 60%;
+    background-color: red;
+}
+.Brosur {
+    width: 80%;
+    background-color: red;
+}
+.Banner {
+    width: 90%;
+    background-color: red;
+}
+.label {
+    width: 90%;
+    background-color: red;
+}
+.Prestasi {
+    background-color: grey;
+    width: 100%;
+    padding: 100px 0;
+}
+.profil {
+    width: 100%;
+    padding: 100px 0;
+    background-color: gray;
+}
+.mp {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.mp img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.teks {
+    width: 550px;
+}
+.teks h2 {
+    color: black;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid crimson;
+}
+
+.teks p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+
+.Desain {
+    background-color: grey;
+    width: 100%;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.Desain .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    background-color: grey;
+}
+
+.Desain .box-container .box{
+    flex:1 1 30rem;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    position: relative;    
+}
+
+.Desain .box-container .box .image{
+    position: relative;
+    text-align: center;
+    padding-top: 2rem;
+    overflow:hidden;
+}
+
+.Desain .box-container .box .image img{
+    height:25rem;
+}
+
+.Desain .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+.Desain .box-container .box .image .icons{
+    position: absolute;
+    bottom:-7rem; left:0; right:0;
+    display: flex;
+}
+
+.Desain .box-container .box:hover .image .icons{
+    bottom:0;
+}
+
+.Desain .box-container .box .image .icons a{
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    width:50%;
+    background-color: grey;
+    color: white;
+}
+
+.Desain .box-container .box .image .icons .info-btn{
+    border-left: .1rem solid grey;
+    border-right: .1rem solid grey;
+    width:100%;
+    font-family: roboto;
+}
+
+.Desain .box-container .box .image .icons a:hover{
+    background: black;
+
+}
+
+.Desain .box-container .box .content{
+    padding:2rem;
+    text-align: center;
+}
+
+.java {
+    background-color: grey;
+    width: 100%;
+    padding: 100px 0;
+}
+
+div .efek-ngetik{
+    width: 100%;
+    min-height: 100%;
+    background-color: grey;
+}
+
+.efek-ngetik {
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: grey;
+    width: 40%;
+    height: fit-content;
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    border: 1px solid white;
+    font-family: roboto;
+    padding:0px;
+}
+
+.circle {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: 1px solid #ffffff;
+    animation: wave 0.8s forwards;
+    opacity: 1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #ffffff;
+}
+@keyframes wave {
+    0% {
+        width: 5px;
+        height: 5px;
+        opacity: 1;
+    }
+    90% {
+        width: 50px;
+        height: 50px;
+        opacity: 0.5;
+    }
+    100% {
+        width: 50px;
+        height: 50px;
+        opacity: 0;
+    }
+}

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ABOUT</title>
+  
+  <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+  <link rel = "stylesheet" type="text/css" href="css/home.css"
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap">
+  
+  <style>
+    body{  
+    background-image: url("img/Your\ Name_.jpg");
+    
+    }
+    #about{
+        width: 80%;
+        margin: 0 auto;
+        font-family: sans-serif;
+    }
+    
+    .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 10px;
+    height: auto;
+    padding: 40px;
+    margin: 50px;
+    border-radius: 2rem;
+    align-items: center;
+    background-color:rgb(253, 253, 255);
+    opacity: 0.6;  
+    
+    }
+
+    .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+    
+    text-align: center;
+    justify-content: center;
+    }
+
+    .isi{
+        background-color: #fff;
+    }
+    .isi h1{
+    font-size:25px;
+    margin: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    }
+    .isi h2{
+    font-size:17px;
+    padding: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    }
+    .isi h4{
+    font-size:15px;
+    padding: 0px 0px 0px 0px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    }
+    .isi a{
+      text-decoration: none;
+      color: black;
+    }
+    .isi a:hover{
+      color: #D30000;
+    }
+    .isi p{
+        font-size: 15px;
+        margin: 20px;
+        text-align: justify;
+    }
+    
+
+    </style>
+</head>
+<body>
+
+<!--HEADER-->
+<div class="header_top">
+  <div class="container">
+    <div id="menuToggle">
+      <input type="checkbox" />
+      <span></span>
+      <span></span>
+      <span></span>
+      <ul id="menu">
+        <a href="home.html"><li>Home</li></a>
+        <p><li>News Category</li></p>
+        <table class="ktg">
+          <tr>
+            <td><a href="political.html">Political</a></td>
+            <td><a href="business.html">Business</a></td>
+          </tr>
+          <tr>
+            <td><a href="health.html">Health</a></td>
+            <td><a href="sport.html">Sport</a></td>
+          </tr>
+          <tr>
+            <td><a href="food.html">Food</a></td>
+            <td><a href="otomotif.html">Automotive</a></td>
+          </tr>
+          <tr>
+            <td><a href="fashion.html">Fashion</a></td>
+            <td><a href="education.html">Education</a></td>
+          </tr>
+          <tr>
+            <td><a href="technology.html">Technology</a></td>
+            <td><a href="travel.html">Travel</a></td>
+          </tr>
+          <tr>
+            <td><a href="islamic.html">Islamic</a></td>
+            <td><a href="#">Others</a></td>
+          </tr>
+        </table>
+        <p><li>Regions</li></p>
+        <table class="daerah">
+          <tr>
+            <td><a href="jawa-tengah.html">Jawa Tengah</a></td>
+            <td><a href="jawa-timur.html">Jawa Timur</a></td>
+          </tr>
+          <tr>
+            <td><a href="jawa-barat.html">Jawa Barat</a></td>
+            <td><a href="jakarta.html">Jakarta</a></td>
+          </tr>
+          <tr>
+            <td><a href="#">Others</a></td>
+          </tr>
+        </table>
+        <a href="About-us.html"><li>About Us</li></a>
+        <a href="contact.html"><li>Contact Us</li></a>
+      </ul>     
+  </div>
+
+  <div class="logo"><p><span>Eprisa.</span>NEWS</p></div>
+  <div class="search-bar">
+      <i class="uil uil-search"></i>
+      <input type="text" name="" id="search-item" placeholder="search" onkeyup="search()">
+  </div>
+
+  <div class="button">
+      <button class="btn"><a href="login.html">Login</a></button>
+  </div>
+  </div>
+</div>
+
+<div class="header_bottom">
+  <div class="container">
+    <nav>
+      <ul>
+        <li><a href="biodata.html">BIODATA</a></li>
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="general.html">GENERAL</a></li>
+        <li><a href="political.html">POLITICAL</a></li>
+        <li><a href="health.html">HEALTH</a></li>
+        <li><a href="sport.html">SPORT</a></li>
+        <li><a href="food.html">FOOD</a></li>
+        <li><a href="javascript.html">JAVASCRIPT</a></li>
+        <li><a href="#">OTHERS<i class="fa-solid fa-caret-down"></i> </a>
+          <ul>
+            <li><a href="business.html">BUSSINESS</a></li>
+            <li><a href="otomotif.html">AUTOMOTIVE</a></li>
+            <li><a href="fashion.html">FASHION</a></li>
+            <li><a href="education.html">EDUCATION</a></li>
+            <li><a href="technology.html">TECHNOLOGY</a></li>
+            <li><a href="islamic.html">ISLAMIC</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+
+<!--HEADER CLOSE-->
+
+<!--CONTENT-->
+<section id="about">
+    <div class="grid-container">
+        <div class="isi">
+          <h1>About Us</h1>
+            <p>EPRISA.NEWS adalah portal berita yang dibuat untuk memenuhi tugas akhir mata kuliah Pemrograman web.</p> 
+            <p>Eprisa.News merupakan portal berita yang terdaftar dan sudah diverifikasi di Dewan Pers Indonesia. Informasi terbaru dan akurat yang disajikan Eprisa.News menitikberatkan pada akurasi dan ketajaman berita dengan sumber informasi yang terpercaya.
+              Eprisa.News tidak bekerja untuk kepentingan politik mana pun dan berdiri di atas dan untuk semua golongan, serta non-partisan.</p>
+            <p>Eprisa.News berdiri sejak tahun 2022. Eprisa.news adalah portal berita terlengkap yang menyajikan seluruh info info yang terupdate, akurat dan terpercaya.</p>
+      
+        </div>
+    </div>
+</section>
+
+<!--CONTENT CLOSE-->
+
+<!--FOOTER-->
+<footer>
+  <div class="footer-content">
+    <ul class="footer-menu">
+      <li><a href="About-us.html">About Us</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+    <ul class="sosial">
+      <li><a href="https://wa.me/+62"><i class="fa-brands fa-whatsapp"></i></a></li>
+      <li><a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a></li>
+      <li><a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a></li>
+      <li><a href="https://www.instagram.com/eprisano_/"><i class="fa-brands fa-instagram"></i></a></li>
+      <li><a href="https://mail.google.com/mail/"><i class="fa-brands fa-google-plus"></i></a></li>
+    </ul>
+  </div>
+  <div class="footer-bootom">
+    <p>Copyright &copy;2022 Eprisa.News by <span>Eprisa Nova Rahmawati_2103040144</span></p>
+  </div>
+</footer>
+<!--FOOTER CLOSE-->
+
+<script src="scripts/search.js"></script>
+<script src="scripts/slide.js"></script>
+<script src="https://kit.fontawesome.com/ff06dd7a1f.js" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" charset="utf-8"></script>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/ff06dd7a1f.js" crossorigin="anonymous"></script>
+ 
+</body>
+</html>

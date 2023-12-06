@@ -1,0 +1,86 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo a {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: 'brush script mt';
+    color: #FFD384;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #06283D;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+a.tbl-biru {
+    background: #256D85;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #F96666;
+    text-decoration: none;
+}
+
+.beranda {
+    margin: auto;
+    display: flex;
+    margin-bottom: 60px;
+    height: 600px;
+}

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DATA DIRI</title>
+</head>
+<body>
+    <div class="fContainer">
+        <nav class="wrapper">
+            <div class="brand">
+                <div class="first">DATA</div>
+                <div class="second">diri</div>
+            </div>
+            <ul class="navigation">
+                <li><a href="#profil">Profil</a></li>
+                <li><a href="#Pendidikan">Riwayat pendidikan</a></li>
+                <li><a href="#skill">skill</a></li>
+                <li><a href="#prestasi">Prestasi</a></li>
+                <li><a href="#Desain">Desain</a></li>
+                <li><a href="#js" class="active">Javascript</a></li>
+            </ul>
+            <div class="img">
+                <img src="yayan.jpg">
+            </div>
+            <div class="content">
+                <h4>Hello, My Name Is </h4>
+                <h1>Yanuar Rizky Nurrokhman</h1>
+                <div class="pernyataan">
+                    <p>Saya yang bertanda tangan dibawah ini menyatakan tidak mencontek/ berbuat curang selama mengerjakan soal ujian ini. Jika ternyata saya melanggar, saya bersedia dikenakan sanksi berupa dibatalkan nilai ujian kuliah ini</p>
+                    <p>Yang menyatakan</p>
+                    <p>Yanuar Rizky Nurrokhman</p>
+                    <p>NIM 2103040126</p>
+                  </div>
+            </div>
+            
+        </nav>
+    </div>
+    <script>
+        document.body.addEventListener('click', (e) => {
+    const element = document.createElement('span');
+    element.className = 'circle';
+
+    element.style.left = (e.clientX - 10) + "px";
+    element.style.top = (e.clientY - 10) + "px";
+
+    document.body.append(element)
+
+    setTimeout(() => {
+        element.remove()
+        
+    }, 900)
+});
+    </script>
+    <section class="profil" id="profil">
+        <div class="me">
+            <img src="yayan.jpg">
+            <div class="text">
+                <h2>Profil</h2>
+                <h5> Graphic <span>Designer</span></h5>
+                <p>Hii.. Nama saya Yanuar Rizky Nurrokhman, saya lahir pada 21 Januari 2003 di Wonosobo. Saya seorang mahasiswa di Universitas Muhammadiyah Purwokerto dengan Prodi yang diambil adalah teknik informatika, 
+                saya ahli dalam bidang desain grafis dengan latar belakang saya yang merupakan alumni SMKN 1 Purwokerto dengan 
+                mengambil jurusan Multimedia sehingga saya sudah akrab dengan bidang desain grafis</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Pendidikan" id="Pendidikan">
+        <div class="title">
+            <h2>Riwayat Pendidikan</h2>
+        </div>
+        <div class="box">
+            <div class="SD">
+                <h5>Sekolah Dasar</h5>
+                <p>
+                    SD NEGERI 1 KALIWIRO adalah salah satu satuan pendidikan dengan jenjang SD di KALIWIRO, Kec. Kaliwiro, Kab. Wonosobo, Jawa Tengah. Dalam menjalankan kegiatannya, SD NEGERI 1 KALIWIRO berada di bawah naungan Kementerian Pendidikan dan Kebudayaan.
+
+                    ALAMAT SD NEGERI 1 KALIWIRO
+                    SD NEGERI 1 KALIWIRO beralamat di Kaliwiro, KALIWIRO, Kec. Kaliwiro, Kab. Wonosobo, Jawa Tengah, dengan kode pos 56364.
+                </p>
+            </div>
+            <div class="SD">
+                <h5>Sekolah Menengah Pertama</h5>
+                <p>
+                    SMP NEGERI 1 KALIWIRO adalah salah satu satuan pendidikan dengan jenjang SMP di KALIWIRO, Kec. Kaliwiro, Kab. Wonosobo, Jawa Tengah. Dalam menjalankan kegiatannya, SD NEGERI 1 KALIWIRO berada di bawah naungan Kementerian Pendidikan dan Kebudayaan.
+
+                    ALAMAT SMP NEGERI 1 KALIWIRO
+                    SMP NEGERI 1 KALIWIRO beralamat di Kaliwiro, KALIWIRO, Kec. Kaliwiro, Kab. Wonosobo, Jawa Tengah, dengan kode pos 56364.
+                </p>
+            </div>
+            <div class="SD">
+                <h5>Sekolah Menengah Kejuruan</h5>
+                <p>
+                    SMK Negeri 1 Purwokerto adalah salah satu SMK di kota Purwokerto, disini terdapat berbagai jurusan peminatan, saya sendiri mengambil jurusan Multimedia yang sekarang sudah berubah nama menjadi DKV, saya mengambil itu karena saya minat dalam dunia visual.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <div class="title">
+            <h2>Skills</h2>
+        </div>
+        <div class="box">
+            <div class="SD">
+                <h5>Corel Draw</h5>
+                <div class="skill-bar">
+                    <p>LOGO</p>
+                    <div class="skill-box">
+                        <div class="LOGO">60%</div>
+                    </div>
+                    <p>Brosur</p>
+                    <div class="skill-box">
+                        <div class="Brosur">80%</div>
+                    </div>
+                    <p>Banner</p>
+                    <div class="skill-box">
+                        <div class="Banner">90%</div>
+                    </div>
+                    <p>Label</p>
+                    <div class="skill-box">
+                        <div class="label">90%</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="SD">
+                <h5>Photoshop</h5>
+                <div class="skill-bar">
+                    <p>LOGO</p>
+                    <div class="skill-box">
+                        <div class="LOGO">70%</div>
+                    </div>
+                    <p>Brosur</p>
+                    <div class="skill-box">
+                        <div class="Brosur">80%</div>
+                    </div>
+                    <p>Banner</p>
+                    <div class="skill-box">
+                        <div class="Banner">80%</div>
+                    </div>
+                    <p>Label</p>
+                    <div class="skill-box">
+                        <div class="label">80%</div>
+                    </div>
+                </div>
+            </div>
+            <div class="SD">
+                <h5>Pixel Lab</h5>
+                <div class="skill-bar">
+                    <p>LOGO</p>
+                    <div class="skill-box">
+                        <div class="LOGO">70%</div>
+                    </div>
+                    <p>Brosur</p>
+                    <div class="skill-box">
+                        <div class="Brosur">80%</div>
+                    </div>
+                    <p>Banner</p>
+                    <div class="skill-box">
+                        <div class="Banner">80%</div>
+                    </div>
+                    <p>Label</p>
+                    <div class="skill-box">
+                        <div class="label">90%</div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="Prestasi" id="prestasi">
+        <div class="mp">
+            <img src="mp.jpg">
+            <div class="teks">
+                <h2>Prestasi</h2>
+                <p>1. Juara 3 KEJURLAT PPS BETAKO MERPATI PUTIH Cabang Banyumas</p>
+                <p>2. Juara 2 Desain Interaktif</p>
+                <p>3. Juara 1 Desain Komunikasi Visual</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="Desain" id="Desain">
+
+    <h1 class="heading">Desain</h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="label.jpeg" alt="">
+                <div class="icons">
+                    <a class="info-btn">Label KITAMOTO</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="logo.jpg" alt="">
+                <div class="icons"> 
+                    <a class="info-btn">Logo Produk</a> 
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="poster1.jpg" alt="">
+                <div class="icons">
+                    <a class="info-btn">Poster</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="poster2.jpg" alt="">
+                <div class="icons">
+                    <a class="info-btn">Poster</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="poster3.jpg" alt="">
+                <div class="icons">
+                    <a class="info-btn">Poster</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<section class="java" id="js">
+<div class="efek-ngetik"></div>
+<script>
+const txtElement = ['JAVASCRIPT'];
+let count = 0;
+let txtIndex = 0;
+let currentTxt= '';
+let words = '';
+
+(function ngetik(){
+	if (count == txtElement.length){
+		count = 0;
+	}
+	currentTxt = txtElement[count];
+
+	words = currentTxt.slice(0, ++txtIndex);
+	document.querySelector('.efek-ngetik').textContent = words;
+
+	if (words.length == currentTxt.length){
+		count++;
+		txtIndex = 0;
+	}
+
+	setTimeout(ngetik, 500);
+
+})();
+
+
+
+</script>
+</section>
+
+</body>
+</html>
